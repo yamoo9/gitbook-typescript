@@ -23,9 +23,9 @@ TypeScript 파일\(`*.ts`\)은 웹 브라우저에서 바로 해석될 수 없�
 
 ## 플레이그라운드\(Playground\)
 
-가볍고 빠르게 TypeScript를 테스트 해보려면 [TypeScript 플레이그라운드](https://typescriptlang.org/play)를 통해 TypeScript 코드가 JavaScript 코드로 변환되는 결과를 실시간으로 확인할 수 있습니다.
+가볍고 빠르게 TypeScript를 테스트 해보려면 [TypeScript 플레이그라운드](https://typescriptlang.org/play)를 통해 TypeScript 코드가 JavaScript 코드로 변환되는 결과를 실시간으로 확인할 수 있습니다
 
-[![](../.gitbook/assets/typescript-play.jpg)](https://typescriptlang.org/play)
+![](../.gitbook/assets/typescript-play%20%281%29.jpg)
 
-#### 각주
+
 
