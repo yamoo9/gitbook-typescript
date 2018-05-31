@@ -2,7 +2,7 @@
 
 ![TS](.gitbook/assets/typescript.svg)
 
-\[TypeScript\]\[1\]는 JavaScript를 포함하는 수퍼셋으로 브라우저, 운영체제에 상관없이 이용 가능한 오픈소스입니다. TypeScript는 JavaScript로 컴파일 되는 트랜스파일러 입니다.
+[TypeScript](http://typescriptlang.org/)는 JavaScript를 포함하는 수퍼셋으로 브라우저, 운영체제에 상관없이 이용 가능한 오픈소스입니다. TypeScript는 JavaScript로 컴파일 되는 트랜스파일러 입니다.
 
 ## JavaScript 사용자라면 바로 시작 가능!
 
@@ -15,6 +15,4 @@ TypeScript는 JavaScript 개발자가 알고있는 것에서부터 시작됩니�
 ## 모던 JavaScript
 
 TypeScript는 ECMAScript 2015\(ES6\)의 새롭고 강력한 기능을 포함하는 모던 JavaScript 기능을 지원하므로 견고한 컴포넌트를 개발하는데 많은 도움이 됩니다. 이러한 기능은 개발시 신뢰할 수 있는 애플리케이션 개발을 위해 제공되며, 간결한 JavaScript로 컴파일 됩니다.
-
-\[1\]: [http://typescriptlang.org/](http://typescriptlang.org/)
 

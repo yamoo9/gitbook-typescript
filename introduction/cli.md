@@ -2,7 +2,7 @@
 
 ## TypeScript 환경 구성
 
-TypeScript를 프로젝트에 사용하려면 [Node.js](https://nodejs.org)가 설치되어 있어야 합니다. 그리고 [NPM](https://npmjs.com)을 통해 개발에 필요한 모듈을 설치/관리할 수 있습니다. NPM을 사용해 \[typescript\]\[3\] 개발 모듈을 설치해봅니다.
+TypeScript를 프로젝트에 사용하려면 [Node.js](https://nodejs.org)가 설치되어 있어야 합니다. 그리고 [NPM](https://npmjs.com)을 통해 개발에 필요한 모듈을 설치/관리할 수 있습니다. NPM을 사용해 [typescript 개발 모듈](https://www.npmjs.com/package/typescript)을 설치해봅니다.
 
 > **NOTE.**  
 >  모듈 설치는 글로벌\(global\), 로컬\(local\) 설치로 나뉘어 집니다. 권장되는 방법은 로컬 설치입니다만, 다수의 프로젝트에서 TypeScript 사용이 요구된다면 편의상 글로벌 설치할 수 있습니다.
@@ -133,5 +133,5 @@ $ tsc -h
  @<file>                                     명령어(Command Line)가 설정된 파일을 입력
 ```
 
-\[3\]: [https://www.npmjs.com/package/typescript](https://www.npmjs.com/package/typescript)
+
 
