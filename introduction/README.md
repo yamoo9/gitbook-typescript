@@ -1,7 +1,3 @@
----
-description: TypeScript 소개 및 사용법을 공부해봅니다.
----
-
 # 소개 및 사용법
 
 TypeScript는 2012년에 발표된 오픈 소스 프로그래밍 언어로, 대규모 JavaScript 애플리케이션 개발을 목적으로 Microsoft에 의해 개발되었습니다.
