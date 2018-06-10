@@ -12,7 +12,7 @@ const factorial = (n:number): number => {
 
 // 펙토리얼 함수 인터페이스 정의
 interface FactorialInterface {
-  (number: number): number;  
+  (n: number): number;  
 }
 ​
 // 인터페이스를 함수 타입에 설정했기에 별도의 매개변수, 리턴 값 설정을 생략해도 됩니다.
