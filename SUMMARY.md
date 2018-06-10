@@ -38,6 +38,10 @@
   * [모듈](namespace-module/modules.md)
   * [모듈 번들링](namespace-module/bundling.md)
   * [네임스페이스와 모듈](namespace-module/namespace-vs-module.md)
-* [Interfaces](undefined.md)
+* [인터페이스](interface/README.md)
+  * [인터페이스와 클래스](interface/untitled-1.md)
+  * [인터페이스와 매개변수](interface/undefined-1.md)
+  * [인터페이스와 객체 리터럴](interface/untitled.md)
+  * [인터페이스 옵션 속성](interface/undefined.md)
 * [제네릭](generics.md)
 
