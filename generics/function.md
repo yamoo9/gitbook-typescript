@@ -53,3 +53,15 @@ const potatoChip_materials = ['어니언'];
 pushItemArray<number>(potatoChip_materials, 999);
 ```
 
+하지만 TypeScript 프로그래밍 과정에서 부득이하게 정해진 타입이 아닌, 경우를 사용해야 하는 경우가 종종 발생합니다. 이런 경우 `as` 를 사용해 컴파일 과정의 타입 검사를 우회할 수 있습니다만, 꼭 필요한 경우에만 사용하는 것이 좋습니다.
+
+```typescript
+// pushItemArray()에 사용자가 타입을 지정한 경우
+pushItemArray<number>(potatoChip_materials as any, 61);
+```
+
+```typescript
+// pushItemArray()에 사용자가 타입을 지정하지 않은 경우
+pushItemArray(potatoChip_materials, 999 as any);
+```
+

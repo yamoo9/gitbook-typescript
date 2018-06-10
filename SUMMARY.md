@@ -49,5 +49,6 @@
 * [제네릭](generics/README.md)
   * [제네릭과 클래스](generics/classes.md)
   * [제네릭과 함수](generics/function.md)
+  * [멀티 타입 설정](generics/undefined.md)
 * [데코레이터](decorator.md)
 
