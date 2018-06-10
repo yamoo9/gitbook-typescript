@@ -47,4 +47,5 @@
   * [인터페이스와 함수타입](interface/undefined.md)
   * [인터페이스 상속](interface/interface-extends.md)
 * [제네릭](generics.md)
+* [데코레이터](decorator.md)
 
