@@ -51,3 +51,5 @@ type ButtonType = {
 }
 ```
 
+{% embed data="{\"url\":\"https://medium.com/@martin\_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c\",\"type\":\"link\",\"title\":\"Interface vs Type alias in TypeScript 2.7\",\"description\":\"The ultimate guide describing differences between interface and type alias for compile time type annotations\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*8I-HPL0bfoIzGied-dzOvA.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/1\*c7NX0rtwapsb\_lVRCk1C-A.png\",\"width\":1200,\"height\":648,\"aspectRatio\":0.54},\"caption\":\"인터페이스와 사용자 정의 타입의 차이점을 자세히 다루는 글입니다. 참고하세요.\"}" %}
+
