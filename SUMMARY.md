@@ -46,6 +46,8 @@
   * [인덱스 시그니처 속성](interface/index-signature.md)
   * [인터페이스와 함수타입](interface/undefined.md)
   * [인터페이스 상속](interface/interface-extends.md)
-* [제네릭](generics.md)
+* [제네릭](generics/README.md)
+  * [제네릭과 클래스](generics/classes.md)
+  * [제네릭과 함수](generics/function.md)
 * [데코레이터](decorator.md)
 
