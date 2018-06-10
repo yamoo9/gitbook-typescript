@@ -23,5 +23,3 @@ var corsURL = function (url) {
 corsURL('http://yamoo9.herokuapp.com/rest/ediya-menu');
 ```
 
-## 각주
-

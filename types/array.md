@@ -52,5 +52,3 @@ let anys:any[] = [100, 'ㄴ', true];
 let selects:(number|string)[] = [102, 'ㅇ'];
 ```
 
-## 각주
-

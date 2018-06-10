@@ -24,5 +24,3 @@ var nickname = 'yamoo9';
 var greeting_message = "\n  <p>\n    \uC548\uB155\uD558\uC138\uC694 <strong>" + nickname + "</strong>\uB2D8.\n    \uAC00\uC785\uC744 \uD658\uC601\uD569\uB2C8\uB2E4. :-)\n  </p>\n";
 ```
 
-## 각주
-

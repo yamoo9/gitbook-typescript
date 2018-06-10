@@ -52,5 +52,3 @@ var yamoo9 = Team.Manager;
 var sarha = Team.Designer;
 ```
 
-## 각주
-

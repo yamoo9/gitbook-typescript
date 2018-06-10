@@ -4,5 +4,3 @@
 
 ![](../.gitbook/assets/es6-compatible-table.jpg)
 
-## 각주
-

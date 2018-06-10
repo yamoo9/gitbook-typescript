@@ -113,5 +113,3 @@ let factorial:(n:number)=>number = n => {
 let factorial:(n:number)=>number = n => n < 0 ? 0 : n === 1 ? 1 : n * factorial(n-1);
 ```
 
-### 각주
-

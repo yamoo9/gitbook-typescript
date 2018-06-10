@@ -32,5 +32,3 @@ var context = document.querySelector('html');
 console.log('글로벌 context = ', context);
 ```
 
-## 각주
-

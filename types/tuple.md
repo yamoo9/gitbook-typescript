@@ -16,5 +16,3 @@ book__name_price = [13320, '카밍 시그널'];
 book__name_price.push(false);
 ```
 
-## 각주
-

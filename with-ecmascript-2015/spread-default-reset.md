@@ -1,4 +1,4 @@
-# 전개 연산자 / 기본, 나머지 매개변수
+# 전개 연산자 / 매개변수
 
 ## Default Parameters
 
@@ -80,6 +80,4 @@ function makeArray() {
 
 makeArray(11, 'eleven', 100, 'one hundred');
 ```
-
-### 각주
 
