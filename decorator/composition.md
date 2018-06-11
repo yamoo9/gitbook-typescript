@@ -32,22 +32,28 @@ class Button {}
 데코레이터 팩토리를 사용해 멀티 데코레이터의 실행 흐름을 살펴보는 것이 이해가 빠를 겁니다.
 
 ```typescript
+// Size 데코레이터 팩토리
 function Size() {
   console.log('Size(): 평가됨');
+  // Size 데코레이터
   return function(target:any, prop:string, desc:PropertyDescriptor){
     console.log('Size(): 실행됨')
   }
 }
 ​
+// Color 데코레이터 팩토리
 function Color() {
   console.log('Color(): 평가됨');
+  // Color 데코레이터
   return function(target:any, prop:string, desc:PropertyDescriptor){
     console.log('Color(): 실행됨')
   }
 }
 ​
+// Button 클래스 정의
 class Button {
 
+  // 메서드에 멀티 데코레이터 적용
   @Size()
   @Color()
   isPressed() {}
