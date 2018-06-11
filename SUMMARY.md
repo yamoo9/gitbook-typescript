@@ -53,5 +53,6 @@
   * [타입 변수 상속](generics/undefined-1.md)
 * [데코레이터](decorator/README.md)
   * [데코레이터 / 팩토리](decorator/factory.md)
+  * [데코레이터 구성](decorator/composition.md)
   * [클래스 데코레이터](decorator/classes.md)
 
