@@ -58,4 +58,5 @@
   * [메서드 데코레이터](decorator/methods.md)
   * [접근 제어자 데코레이터](decorator/accessor.md)
   * [속성 데코레이터](decorator/properties.md)
+  * [매개변수 데코레이터](decorator/parameters.md)
 
