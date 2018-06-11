@@ -56,4 +56,6 @@
   * [데코레이터 구성](decorator/composition.md)
   * [클래스 데코레이터](decorator/classes.md)
   * [메서드 데코레이터](decorator/methods.md)
+  * [접근 제어자 데코레이터](decorator/accessor.md)
+  * [속성 데코레이터](decorator/properties.md)
 
