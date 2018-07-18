@@ -1,4 +1,4 @@
-# TypeScript 핸드북
+# TypeScript 가이드북
 
 ![TS](.gitbook/assets/typescript.svg)
 

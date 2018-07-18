@@ -1,6 +1,6 @@
 # Table of contents
 
-* [TypeScript 핸드북](README.md)
+* [TypeScript 가이드북](README.md)
 * [소개 및 사용법](introduction/README.md)
   * [환경 구성 및 명령어 인터페이스](introduction/cli.md)
   * [컴파일 설정](introduction/tsconfig.md)
