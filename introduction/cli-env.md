@@ -1,6 +1,6 @@
-# 환경 구성 및 명령어 인터페이스
+# 환경 구성 / CLI
 
-## TypeScript 환경 구성
+## TypeScript 환경 구성 {#typescript-config}
 
 TypeScript를 프로젝트에 사용하려면 [Node.js](https://nodejs.org)가 설치되어 있어야 합니다. 그리고 [NPM](https://npmjs.com)을 통해 개발에 필요한 모듈을 설치/관리할 수 있습니다. NPM을 사용해 [typescript 개발 모듈](https://www.npmjs.com/package/typescript)을 설치해봅니다.
 
@@ -16,6 +16,10 @@ $ npm i -g typescript
 # npm install --save-dev typescript
 $ npm i -D typescript
 ```
+
+{% hint style="info" %}
+[yarn](https://yarnpkg.com/lang/en/)을 사용할 경우 add 명령과 --dev 옵션을 사용하여 설치할 수 있습니다.
+{% endhint %}
 
 ## TypeScript CLI
 

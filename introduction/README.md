@@ -8,7 +8,7 @@ TypeScript는 2012년에 발표된 오픈 소스 프로그래밍 언어로, 대�
 
 TypeScript는 JavaScript, ECMAScript를 포함하는 수퍼셋\(Superset\)으로 **JavaScript 또는 ECMAScript에서 지원하지 않는 기능을 지원**합니다. TypeScript를 대표로 하는 기능은 다음과 같습니다.
 
-* **엄격한 타입 관리**\(Strongly Typed\) -  컴파일 시점에 타입 검사 -  에디터 확장 시, 실시간 타입 검사
+* **엄격한 타입 관리**\(Strongly Typed\) -  [컴파일](cli-env.md#typescript-cli) 시점에 타입 검사 -  [에디터 확장](linting.md#integration) 시, 실시간 타입 검사
 * **제너릭**\(Generics\) -  클래스나 함수가 사용될 때 타입 설정
 * **인터페이스**\(Interface\) -  타입 검사를 요구
 * ...

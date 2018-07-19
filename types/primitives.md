@@ -1,6 +1,6 @@
 # primitive 타입
 
-원시 데이터 타입\(Primitive Data Types\)인 `number`, `string`, `boolean`을 명시적으로 설정한 변수 선언은 다음과 같이 작성합니다.
+원시 데이터 타입 `number`, `string`, `boolean`을 명시적으로 설정한 변수 선언은 다음과 같이 작성합니다.
 
 ```typescript
 // 명시적으로 number 타입을 설정
