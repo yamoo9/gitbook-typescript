@@ -62,9 +62,7 @@ var sarha = Team.Designer;
 
 {% embed data="{\"url\":\"https://stackblitz.com/edit/ts-enum?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor\",\"type\":\"rich\",\"title\":\"ts-enum - StackBlitz\",\"description\":\"TypeScript : 이넘 데이터 유형\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"reader\",\"url\":\"https://stackblitz.com/edit/ts-enum?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 53.6913%;\\\"><iframe src=\\\"https://stackblitz.com/edit/ts-enum?embed=1&amp;file=index.ts&amp;hideExplorer=1&amp;hideNavigation=1&amp;view=editor\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":1.8625}}" %}
 
-## 참고
+## 참고 {#reference}
 
-TypeScript에서 `enum` 데이터 타입을 활용하는 방법을 읽어보세요.
-
-{% embed data="{\"url\":\"http://angularfirst.com/typescript-string-enums/\",\"type\":\"link\",\"title\":\"TypeScript String Enums\",\"description\":\"Derived from photo by Markus Spiske / raumrot.com, CC-BY This post expands upon a popular issue/proposal in the TypeScript GitHub repository called \'String enums\'. The proposal is to crea…\",\"icon\":{\"type\":\"icon\",\"url\":\"http://angularfirst.com/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://s0.wp.com/i/blank.jpg\",\"width\":200,\"height\":200,\"aspectRatio\":1},\"caption\":\"TypeScript 이넘 데이터 활용\"}" %}
+{% embed data="{\"url\":\"https://www.typescriptlang.org/docs/handbook/enums.html\",\"type\":\"link\",\"title\":\"Enums · TypeScript\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.typescriptlang.org/assets/images/icons/android-chrome-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"caption\":\"TypeScript - Enum 데이터 타입\"}" %}
 
