@@ -4,8 +4,10 @@
 
 ES6부터 **클래스 문법을 사용**할 수 있습니다. 클래스를 정의하고, 속성을 설정하는 기본 사용법은 다음과 같습니다.
 
+{% code-tabs %}
+{% code-tabs-item title="JavaScript" %}
 ```javascript
-/* 클래스 */
+/* 클래스 정의 ------------------------------------------------ */
 class Book {
 
   /* 생성자 */
@@ -13,7 +15,14 @@ class Book {
     this.title  = title;
     this.author = author;
     this.pages  = pages;
+    this.init();
   }
+
+  /* 클래스 메서드 */
+  static create(){}
+
+  /* 인스턴스 메서드 */
+  init(){}
 
 }
 
@@ -22,6 +31,8 @@ class Book {
 let indRevo = new Book('한 권으로 정리하는 4차 산업혁명', '최진기', 367);
 console.log(indRevo); // Book {}
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## TypeScript: Class
 
