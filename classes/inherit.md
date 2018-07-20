@@ -1,5 +1,7 @@
 # 상속
 
+## 클래스 상속 {#class-inheritance}
+
 TypeScript는 ES6에서와 마찬가지로 **클래스 상속에 `extends` 키워드를 사용**합니다. 그리고 아래 코드와 같은 방법으로 수퍼 클래스 Book의 `paper_type` 속성을 다른 값으로 덮어쓸 수 있습니다. \(ES6에서는 지원하지 않습니다\)
 
 ```typescript
@@ -61,7 +63,7 @@ class E_Book extends Book {
 }
 ```
 
-## 상속 / constructor, super
+## 상속 / constructor, super {#inherit-constructor-super}
 
 일반적으로 수퍼 클래스를 상속받은 **서브 클래스는 수퍼 클래스의 기능에 더하여 좀 더 많은 기능을 갖도록 설계**합니다. `constructor()`를 사용해 상속 받은 수퍼 클래스의 생성자를 서브 클래스의 생성자로 덮어쓸 수 있습니다. 이 때 반드시 **`super()`를 사용해 수퍼 클래스의 생성자에 요구되는 인자를 전달**해야 합니다.
 
