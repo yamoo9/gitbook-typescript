@@ -48,5 +48,7 @@ TypeScript의 클래스는 ES6의 클래스 문법을 넘어 강력한 기능을
 
 {% embed data="{\"url\":\"https://stackblitz.com/edit/ts-class?embed=1&file=index.ts&hideExplorer=0&hideNavigation=1&view=editor\",\"type\":\"rich\",\"title\":\"ts-class - StackBlitz\",\"description\":\"TypeScript : 타입 단언\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"reader\",\"url\":\"https://stackblitz.com/edit/ts-class?embed=1&file=index.ts&hideExplorer=0&hideNavigation=1&view=editor\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 53.6913%;\\\"><iframe src=\\\"https://stackblitz.com/edit/ts-class?embed=1&amp;file=index.ts&amp;hideExplorer=0&amp;hideNavigation=1&amp;view=editor\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":1.8625}}" %}
 
+## 참고 {#reference}
 
+{% embed data="{\"url\":\"https://www.typescriptlang.org/docs/handbook/classes.html\",\"type\":\"link\",\"title\":\"Classes · TypeScript\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.typescriptlang.org/assets/images/icons/android-chrome-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1}}" %}
 

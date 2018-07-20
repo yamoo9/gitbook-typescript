@@ -1,7 +1,11 @@
 # 메서드 with 접근 제어자
 
+## 접근 제어 메서드 설정 {#setting-acc-mod-methods}
+
 속성과 마찬가지로 메서드 또한 접근 제어자를 사용해 외부에서의 접근을 제어할 수 있습니다.
 
+{% code-tabs %}
+{% code-tabs-item title="TypeScript" %}
 ```typescript
 class Book {
 
@@ -73,16 +77,18 @@ console.log(indRevo.changePaperType('인디언지'));
 // (method) Book.setManufacturingPlant(plant: string): void
 console.log(indRevo.setManufacturingPlant('파주 공장'));
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-## 주의!
-
+{% hint style="warning" %}
 TypeScript 상에서는 접근 제어자에 따라 접근 또는 차단을 제어할 수 있지만, 컴파일된 JavaScript 코드에서는 그렇지 않습니다. JavaScript\(ES5\)는 언어 차원에서 접근 제어자를 지원하지 않기 때문입니다. 즉, 컴파일된 Book 클래스의 메서드는 모두 접근 가능합니다.
+{% endhint %}
 
-컴파일 코드:
+**컴파일 코드:**
 
+{% code-tabs %}
+{% code-tabs-item title="JavaScript" %}
 ```javascript
-// JavaScript
-
 var Book = /** @class */ (function () {
 
   function Book(title, author, pages) {
@@ -128,4 +134,14 @@ console.log(indRevo.printPages()); // '367페이지'
 console.log(indRevo.changePaperType('인디언지'));
 console.log(indRevo.setManufacturingPlant('파주 공장'));
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+## 실습 {#practice}
+
+{% embed data="{\"url\":\"https://stackblitz.com/edit/ts-access-modifiers-methods?embed=1&file=index.ts&hideExplorer=0&hideNavigation=0&view=editor\",\"type\":\"rich\",\"title\":\"ts-access-modifiers-methods - StackBlitz\",\"description\":\"TypeScript : 클래스 속성 접근 제어자\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"reader\",\"url\":\"https://stackblitz.com/edit/ts-access-modifiers-methods?embed=1&file=index.ts&hideExplorer=0&hideNavigation=0&view=editor\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 53.6913%;\\\"><iframe src=\\\"https://stackblitz.com/edit/ts-access-modifiers-methods?embed=1&amp;file=index.ts&amp;hideExplorer=0&amp;hideNavigation=0&amp;view=editor\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":1.8625}}" %}
+
+## 참고 {#reference}
+
+{% embed data="{\"url\":\"https://www.typescriptlang.org/docs/handbook/classes.html\#public-private-and-protected-modifiers\",\"type\":\"link\",\"title\":\"Classes · TypeScript\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.typescriptlang.org/assets/images/icons/android-chrome-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"caption\":\"TypeScript 클래스 접근 제어자\"}" %}
 
