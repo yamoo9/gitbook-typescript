@@ -2,7 +2,7 @@
 
 ## 설명 {#desc}
 
-JavaScript에서 `null`, `undefined`는 데이터 타입이자 값입니다. TypeScript에서도 이들은 하나의 타입이므로 다음과 같이 사용할 수 있습니다.
+JavaScript에서 **`null`, `undefined`는 데이터 타입 이자 하나의 값**입니다. **TypeScript에서도 하나의 타입**으로 처리 되며 다음과 같이 사용할 수 있습니다.
 
 ```typescript
 let nullable:null = null;
