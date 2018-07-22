@@ -18,7 +18,7 @@ let undefinedable:undefined = undefined;
 nullable = undefined;
 ```
 
-이와 같이 엄격하게 오류를 출력하는 이유는 [`tsconfig.json`](../introduction/tsconfig.md#tsconfig-json)에 다음과 같이 설정되어있기 때문입니다. 설정 값을 `false`로 설정할 경우 위와 같은 오류가 발생하지 않습니다.
+이와 같이 엄격하게 오류를 출력하는 이유는 [`tsconfig.json`](../cli-env/tsconfig.md#tsconfig-json)에 다음과 같이 설정되어있기 때문입니다. 설정 값을 `false`로 설정할 경우 위와 같은 오류가 발생하지 않습니다.
 
 ```javascript
 "strictNullChecks": true, /* 엄격한 null 검사 사용 */

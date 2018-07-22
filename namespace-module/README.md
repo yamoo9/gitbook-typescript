@@ -40,13 +40,13 @@ Dom.each([1, 4, 9], (item, index) => console.log(index, item));
 console.log(Dom.el('body')); // <body>
 ```
 
-JavaScript\(ES5\)로 컴파일 된 코드를 살펴보면 IIFE 패턴을 사용해 외부와 차단된 공간을 만든 후, `Dom` 객체를 네임스페이스처럼 활용합니다. 이 방법은 네임스페이스를 지원하지 않는 JavaScript 개발자들이 오래 전부터 사용하던 방법 중 하나입니다.
+JavaScript\(ES5\)로 컴파일 된 코드를 살펴보면 IIFE 패턴을 사용해 외부와 차단된 공간을 만든 후, `Dom` 객체를 네임스페이스처럼 활용합니다. 이 방법은 네임스페이스를 지원하지 않는 JavaScript 개발자들이 오래 전부터 사용하던 방법 중 하나 입니다.
 
-컴파일 코드:
+**컴파일 코드:**
 
+{% code-tabs %}
+{% code-tabs-item title="JavaScript" %}
 ```javascript
-// JavaScript
-
 // 네임스페이스 Dom 정의
 var Dom;
 (function (Dom) {
@@ -70,4 +70,14 @@ var Dom;
   }
 })(Dom || (Dom = {}));
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+## 실습 {#practice}
+
+{% embed data="{\"url\":\"https://stackblitz.com/edit/ts-namespace?embed=1&file=index.ts&hideExplorer=0&hideNavigation=0&view=editor\",\"type\":\"rich\",\"title\":\"ts-namespace - StackBlitz\",\"description\":\"TypeScript : 네임스페이스\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"reader\",\"url\":\"https://stackblitz.com/edit/ts-namespace?embed=1&file=index.ts&hideExplorer=0&hideNavigation=0&view=editor\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 53.6913%;\\\"><iframe src=\\\"https://stackblitz.com/edit/ts-namespace?embed=1&amp;file=index.ts&amp;hideExplorer=0&amp;hideNavigation=0&amp;view=editor\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":1.8625}}" %}
+
+## 참고 {#reference}
+
+{% embed data="{\"url\":\"https://www.typescriptlang.org/docs/handbook/namespaces.html\",\"type\":\"link\",\"title\":\"Namespaces · TypeScript\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.typescriptlang.org/assets/images/icons/android-chrome-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"caption\":\"TypeScript - 네임스페이스\"}" %}
 

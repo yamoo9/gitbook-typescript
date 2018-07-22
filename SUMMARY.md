@@ -1,10 +1,11 @@
 # Table of contents
 
 * [TypeScript 가이드북](README.md)
-* [소개 및 사용법](introduction/README.md)
-  * [환경 구성 / CLI](introduction/cli-env.md)
-  * [컴파일 설정](introduction/tsconfig.md)
-  * [린팅](introduction/linting.md)
+* [소개](introduction.md)
+* [환경 구성 / CLI](cli-env/README.md)
+  * [컴파일 설정](cli-env/tsconfig.md)
+  * [린팅](cli-env/linting.md)
+  * [IDE / 에디터](cli-env/ide-editors.md)
 * [타입](types/README.md)
   * [primitive 타입](types/primitives.md)
   * [any 타입](types/any.md)

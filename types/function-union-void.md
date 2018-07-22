@@ -2,7 +2,7 @@
 
 ## 함수 매개변수 타입 {#parameters}
 
-다음 코드는 JavaScript에서 아무런 문제가 없지만 `tsconfig.json`에 설정된 [`noImplicitAny`](../introduction/tsconfig.md#tsconfig-json) 설정 값이 `true`일 경우, 명시적으로 타입 설정을 하지 않아 컴파일 시 다음과 같은 오류를 출력합니다.
+다음 코드는 JavaScript에서 아무런 문제가 없지만 `tsconfig.json`에 설정된 [`noImplicitAny`](../cli-env/tsconfig.md#tsconfig-json) 설정 값이 `true`일 경우, 명시적으로 타입 설정을 하지 않아 컴파일 시 다음과 같은 오류를 출력합니다.
 
 ```typescript
 // [오류]
