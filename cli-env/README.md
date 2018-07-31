@@ -4,9 +4,6 @@
 
 TypeScript를 프로젝트에 사용하려면 [Node.js](https://nodejs.org)가 설치되어 있어야 합니다. 그리고 [NPM](https://npmjs.com)을 통해 개발에 필요한 모듈을 설치/관리할 수 있습니다. NPM을 사용해 [typescript 개발 모듈](https://www.npmjs.com/package/typescript)을 설치해봅니다.
 
-> **NOTE.**  
->  모듈 설치는 글로벌\(global\), 로컬\(local\) 설치로 나뉘어 집니다. 권장되는 방법은 로컬 설치입니다만, 다수의 프로젝트에서 TypeScript 사용이 요구된다면 편의상 글로벌 설치할 수 있습니다.
-
 ```bash
 # 글로벌 설치
 # npm install --global typescript
@@ -18,6 +15,10 @@ $ npm i -D typescript
 ```
 
 {% hint style="info" %}
+모듈 설치는 글로벌\(global\), 로컬\(local\) 설치로 나뉘어 집니다. 권장되는 방법은 로컬 설치입니다만, 다수의 프로젝트에서 TypeScript 사용이 요구된다면 편의상 글로벌 설치할 수 있습니다.
+{% endhint %}
+
+{% hint style="success" %}
 [yarn](https://yarnpkg.com/lang/en/)을 사용할 경우 add 명령과 --dev 옵션을 사용하여 설치할 수 있습니다.
 {% endhint %}
 

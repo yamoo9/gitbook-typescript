@@ -1,8 +1,8 @@
 # 데코레이터
 
-데코레이터\(Decorator\)는 [ECMAScript에 새롭게 제안된 기능](https://github.com/tc39/proposal-decorators#decorators)이며, TypeScript의 실험적 기능으로 클래스 선언과 멤버에 대한 주석\(annotations\)과 메타 프로그래밍 구문을 모두 추가 할 수있는 방법을 제공합니다.
+데코레이터\(Decorator\)는 [**ECMAScript에 새롭게 제안된 기능**](https://github.com/tc39/proposal-decorators#decorators)이며, TypeScript의 실험적 기능으로 **클래스 선언과 멤버에 대한 주석\(annotations\)과 메타 프로그래밍 구문을 모두 추가 할 수있는 방법**을 제공합니다.
 
-### 데코레이터 사용을 위한 설정
+### 데코레이터 사용 설정 {#setting}
 
 데코레이터를 TypeScript에서 사용하려면 `tsconfig.json` 설정 `experimentalDecorators` 값을 `true`로 설정해야 합니다. 환경 설정 없이 데코레이터를 사용하려면 컴파일 과정에서 오류 메시지를 출력합니다.
 
@@ -23,8 +23,6 @@
 {% hint style="warning" %}
 데코레이터는 차후 릴리스 시, 변경 될 수있는 실험 기능입니다.
 {% endhint %}
-
-
 
 ### 참고
 
