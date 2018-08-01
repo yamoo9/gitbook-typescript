@@ -19,7 +19,15 @@ $ npm i -D typescript
 {% endhint %}
 
 {% hint style="success" %}
-[yarn](https://yarnpkg.com/lang/en/)을 사용할 경우 add 명령과 --dev 옵션을 사용하여 설치할 수 있습니다.
+[yarn](https://yarnpkg.com/lang/en/)을 사용할 경우, 다음과 같은 명령을 사용하여 설치할 수 있습니다.
+
+```bash
+# 글로벌 설치
+$ yarn global add typescript
+
+# 로컬 설치
+$ yarn add typescript --dev
+```
 {% endhint %}
 
 ## TypeScript CLI
@@ -34,7 +42,7 @@ TypeScript 파일은 `.ts` 확장자를 가집니다. 파일에 작성된 코드
 $ tsc
 
 # 개별 파일 컴파일
-$ tsc {파일.ts}
+$ tsc 파일.ts
 ```
 
 ### ECMAScript Target
@@ -72,9 +80,6 @@ $ tsc --outDir './dist'
 $ tsc --outFile 'bundle.js'
 
 # 디렉토리 + 파일 이름 설정
-$ tsc --outFile './dist/bundle.js'
-
-#
 $ tsc --outFile './dist/bundle.js'
 ```
 
