@@ -32,7 +32,6 @@ interface ButtonInterface {
 class ButtonComponent implements ButtonInterface {
 
   // onInit 메서드가 설정되지 않아도 오류를 발생하지 않습니다.
-
   onClick() { console.log('버튼 클릭') }
 
 }

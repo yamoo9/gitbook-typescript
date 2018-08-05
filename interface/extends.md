@@ -117,7 +117,7 @@ let imageButton:ImageButtonInterface = {
 객체를 초기 선언하는 과정이 아닌, 추후 인터페이스에 정의된 속성을 추가할 수 있도록 사용하고자 한다면 어떻게 해야 할가요? 해결 방법은 [제네릭](https://uid.gitbook.io/typescript/generics) 문법을 사용하여 변수에 할당하는 것입니다.
 
 ```typescript
-// 제네릭(Generic) 문법을 사용하여 설정하면 
+// 제네릭(Generic) 문법을 사용하여 설정하면 선언 과정에서 오류가 발생하지 않습니다.
 let imageButton = <ImageButtonInterface>{};
 
 imageButton.small = () => { console.log('버튼 크기 small 설정') };
